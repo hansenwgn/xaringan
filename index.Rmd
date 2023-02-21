@@ -25,7 +25,7 @@ style_mono_light(
 )
 ```
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE}
 library(knitcitations)
 library(RefManageR)
 BibOptions(check.entries = FALSE,
@@ -147,6 +147,6 @@ class: center, bottom, inverse
 class: inverse
 
 # References
-```{r results='asis', echo=FALSE}
-PrintBibliography(myBib, start = 1, end = 5)
+```{r results='asis', echo=FALSE, message=FALSE}
+PrintBibliography(myBib, start = 1, end = 2)
 ```
