@@ -12,6 +12,7 @@ output:
     nature:
       highlightStyle: github
       highlightLines: true
+      ratio: 16:9
       countIncrementalSlides: false
 ---
 class: inverse, center, middle
@@ -22,10 +23,11 @@ style_mono_light(
   #header_font_google = google_font("Josefin Sans"),
   #text_font_google   = google_font("Montserrat", "300", "300i"),
   #code_font_google   = google_font("Fira Mono")
+  title_slide_background_image = "img/milky.jpg"
 )
 ```
 
-```{r echo=FALSE, message=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(knitcitations)
 library(RefManageR)
 BibOptions(check.entries = FALSE,
